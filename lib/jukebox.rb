@@ -23,15 +23,15 @@ end
 
 def list(songs)
 
-songs.each_with_index { |track, index| puts "#{index}. #{track}" }
+songs.each_with_index { |track, index| puts "#{index + 1}. #{track}" }
 
 end
 
   def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
-  songs.each do |track|
-    if user_response == track
+  songs.each_with_index do |track, index|
+    if user_response == track || user_response == index
       puts "Playing #{user_response}"
       else
       puts "Invalid input, please try again"
