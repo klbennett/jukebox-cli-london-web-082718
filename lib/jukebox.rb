@@ -71,9 +71,9 @@ puts
 case user_response 
 user_response = "list"
   list
-elsif response2 = play"
+elsif user_response = "play"
 play
-elsif response2 = exit
+elsif user_response = "exit"
 exit_jukebox
 end
 end
