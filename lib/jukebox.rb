@@ -57,23 +57,20 @@ end
 
 
 def run(songs)
-help
-puts "Please enter a command:"
-user_response = gets.chomp
-loop do
-puts
-case user_response 
-when user_response = "list"
-  list(songs)
-when user_response = "play"
-play(songs)
-when user_response = "exit"
-exit_jukebox
-break
-when user_response = "help"
-help
-end
-end
-end
-exit_jukebox
+  help
+  loop do
+    puts "Please enter a command:"
+    input = gets.chomp
+    case input
+    when 'play'
+      play(songs)
+    when 'help'
+      help
+    when 'list'
+      list(songs)
+    when 'exit'
+      break
+    end
+  end
+  exit_jukebox
 end
