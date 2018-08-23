@@ -65,7 +65,8 @@ help
 
 puts "Please enter a command:"
 response2 = gets.chomp
-
+help
+loop do
 if response2 = list
   list
 elsif response2 = play
