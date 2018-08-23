@@ -52,13 +52,11 @@ def play(songs)
   end 
 end 
 
->>>>>>> a927ba6a54ad1a2134d9b974f45080d4cc088915
-
 def exit_jukebox
   puts "Goodbye"
 end
 
-<<<<<<< HEAD
+
 def run(songs)
 
 help
