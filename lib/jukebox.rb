@@ -67,7 +67,8 @@ puts "Please enter a command:"
 response2 = gets.chomp
 help
 loop do
-puts response2 = list
+puts
+case response2 = list
   list
 elsif response2 = play
 play
