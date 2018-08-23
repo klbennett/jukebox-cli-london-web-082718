@@ -75,6 +75,9 @@ elsif user_response = "play"
 play
 elsif user_response = "exit"
 exit_jukebox
+else
+  help
+end
 end
 end
 end
