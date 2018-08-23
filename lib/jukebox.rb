@@ -28,9 +28,8 @@ songs.each_with_index { |track, index| puts "#{index}. #{track}" }
 end
 
   def play(songs)
-
   puts "Please enter a song name or number:"
-  response = gets.chomp
+  userresponse = gets.chomp
   songs.each do |track|
     if response == track
       puts "Playing #{response}"
