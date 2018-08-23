@@ -69,6 +69,7 @@ when user_response = "play"
 play
 when user_response = "exit"
 exit_jukebox
+break
 when user_response = "help"
 help
 end
