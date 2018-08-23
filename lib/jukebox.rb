@@ -64,9 +64,9 @@ loop do
 puts
 case user_response 
 when user_response = "list"
-  list
+  list(songs)
 when user_response = "play"
-play
+play(songs)
 when user_response = "exit"
 exit_jukebox
 break
