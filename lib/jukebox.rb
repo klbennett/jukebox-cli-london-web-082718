@@ -64,13 +64,14 @@ def run(songs)
 help
 
 puts "Please enter a command:"
-response2 = gets.chomp
+user_response = gets.chomp
 help
 loop do
 puts
-case response2 = list
+case user_response 
+user_response = "list"
   list
-elsif response2 = play
+elsif response2 = play"
 play
 elsif response2 = exit
 exit_jukebox
