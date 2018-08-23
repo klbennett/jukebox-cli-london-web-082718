@@ -27,8 +27,6 @@ songs.each_with_index { |track, index| puts "#{index}. #{track}" }
 
 end
 
-
-<<<<<<< HEAD
   def play(songs)
 
   puts "Please enter a song name or number:"
