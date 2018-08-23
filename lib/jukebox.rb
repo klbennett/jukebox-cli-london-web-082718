@@ -38,7 +38,7 @@ end
       puts "Invalid input, please try again"
 end
 end
-=======
+
 def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.downcase.chomp 
@@ -75,5 +75,3 @@ exit_jukebox
 end
 end
 end
-=======
->>>>>>> a927ba6a54ad1a2134d9b974f45080d4cc088915
