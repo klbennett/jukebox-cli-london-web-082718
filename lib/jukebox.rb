@@ -67,11 +67,11 @@ help
 loop do
 puts
 case user_response 
-user_response = "list"
+when user_response = "list"
   list
-elsif user_response = "play"
+when user_response = "play"
 play
-elsif user_response = "exit"
+when user_response = "exit"
 exit_jukebox
 else
   help
