@@ -58,12 +58,9 @@ end
 
 
 def run(songs)
-
 help
-
 puts "Please enter a command:"
 user_response = gets.chomp
-help
 loop do
 puts
 case user_response 
@@ -73,9 +70,10 @@ when user_response = "play"
 play
 when user_response = "exit"
 exit_jukebox
-else
-  help
+elsif user_response = "help"
+help
 end
 end
 end
+exit_jukebox
 end
