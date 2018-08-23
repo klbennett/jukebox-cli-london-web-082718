@@ -70,7 +70,7 @@ when user_response = "play"
 play
 when user_response = "exit"
 exit_jukebox
-elsif user_response = "help"
+when user_response = "help"
 help
 end
 end
